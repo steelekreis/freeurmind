@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #00111c;
+    
+}
+
+.logo {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+.Sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.Sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #adfda2;
+    display: block;
+}
+
+.Sidebar a:hover {
+    color: #11d3f3;
+}
+
+
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+/* W3 schools helped to figure margining for mobile device */
+@media screen and (max-height: 450px) {
+    .Sidebar {padding-top: 15px;}
+    .Sidebar a {font-size: 18px;}
+}
