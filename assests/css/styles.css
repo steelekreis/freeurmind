@@ -26,7 +26,7 @@ body {
  }
  
 
- .sidenav a, .dropdown-btn {
+ .sidenav a, .dropdown-btn, .Logout-btn {
    padding: 15px 8px 15px 16px;
    text-decoration: none;
    font-size: 20px;
@@ -40,8 +40,10 @@ body {
    outline: none;
  }
  
- .sidenav a:hover, .dropdown-btn:hover {
-   color: #f1f1f1;
+ 
+
+ .sidenav a:hover, .dropdown-btn:hover, .Logout-btn:hover {
+   color: #11d3f3;
  }
  
 
