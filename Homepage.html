@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assests/css/styles.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Free Ur Mind</title>
 </head>
@@ -14,17 +15,36 @@
 <body>
 
     <img src="./assests/images/Free Ur MInd.png" class="logo">
-
-<!--Start of Nav Sidebar-->
-    <div class="Sidebar">
-        <a href="#Journal"><i class="bi bi-journal-bookmark-fill"></i> Journal Entries</a>
-        <a href="#Timeline"><i class="bi bi-graph-up"></i> Timeline</a>
-        <a href="#Mood-Booster"><i class="bi bi-emoji-smile"></i> Mood Booster</a>
-        <a href="#Contact-help"><i class="bi bi-telephone"></i> Contact Help</a>
-        <a href="#Logout"><i class="bi bi-box-arrow-left"></i> Logout</a>
+<!--Got the basic layout of the nav from a lesson in w3schools-->
+<div class="sidenav">
+<!--Start of Journal Tab-->
+    <button class="dropdown-btn"><i class="bi bi-journal-bookmark-fill"></i> Journal Entries <i class="bi bi-caret-down-fill"></i></button>
+    <div class="dropdown-container">
+        <a href="#"> Create Entry</a>
+        <a href="#"> View Entries</a>
+        <a href="#"> Manage Entries</a>
     </div>
+<!--Start of Timeline Tab-->
+    <button class="dropdown-btn"><i class="bi bi-graph-up"></i> Timeline<i class="bi bi-caret-down-fill"></i></button>
+    <div class="dropdown-container">
+        <a href="#"> View Timeline</a>
+        <a href="#"> Create New Timeline</a>
+        <a href="#"> View Past Timeline</a>
+    </div>
+<!--Start of Mood Booster Tab-->
+    <button class="dropdown-btn"><i class="bi bi-emoji-smile"></i> Mood Booster<i class="bi bi-caret-down-fill"></i></button>
+    <div class="dropdown-container">
+        <a href="#"> Jokes</a>
+        <a href="#"> Inspirational Quotes</a>
+        <a href="#"> Pics of Cute Animals</a>
+    </div>
+<!--Start of Contact Help-->
+    <button class="dropdown-btn"><i class="bi bi-telephone"></i> Contact Help</button>
+    
+</div>
+
 
 
 </body>
-
+<script src="./assests/js/Homepage.js"></script>
 </html>

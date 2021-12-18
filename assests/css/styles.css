@@ -5,7 +5,6 @@
 
 body {
     background-color: #00111c;
-    
 }
 
 .logo {
@@ -14,39 +13,68 @@ body {
  margin-right: auto;
  width: 50%;
 }
+ .sidenav {
+   height: 100%;
+   width: 200px;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #111;
+   overflow-x: hidden;
+   padding-top: 20px;
+ }
+ 
 
-.Sidebar {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 16px;
-}
+ .sidenav a, .dropdown-btn {
+   padding: 15px 8px 15px 16px;
+   text-decoration: none;
+   font-size: 20px;
+   color: #adfda2;
+   display: block;
+   border: none;
+   background: none;
+   width:100%;
+   text-align: left;
+   cursor: pointer;
+   outline: none;
+ }
+ 
+ .sidenav a:hover, .dropdown-btn:hover {
+   color: #f1f1f1;
+ }
+ 
 
-.Sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #adfda2;
-    display: block;
-}
+ .main {
+   margin-left: 200px; 
+   font-size: 20px; 
+   padding: 0px 10px;
+ }
+ 
+ 
+ .active {
+   background-color: green;
+   color: white;
+ }
+ 
+ 
+ .dropdown-container {
+   display: none;
+   background-color: #262626;
+   padding-left: 8px;
+   font-size: 16px;
+ }
+ 
+ 
+ .bi-caret-down {
+   float: right;
+   padding-right: 8px;
+ }
 
-.Sidebar a:hover {
-    color: #11d3f3;
-}
 
-
-
-.main {
-    margin-left: 160px;
-    padding: 0px 10px;
-}
 /* W3 schools helped to figure margining for mobile device */
 @media screen and (max-height: 450px) {
     .Sidebar {padding-top: 15px;}
     .Sidebar a {font-size: 18px;}
 }
+
