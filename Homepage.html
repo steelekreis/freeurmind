@@ -20,16 +20,16 @@
 <!--Start of Journal Tab-->
     <button class="dropdown-btn"><i class="bi bi-journal-bookmark-fill"></i> Journal Entries <i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <a href="#"> Create Entry</a>
-        <a href="#"> View Entries</a>
-        <a href="#"> Manage Entries</a>
+        <button class="tablink" onclick="openPage('Create-Post', 'this', '#45E1D8')"> Create Entry</button>
+        <button class="tablink" onclick="openPage('View-Post', 'this', '')"> View Entries</button>
+        <button class="tablink" onclick="openPage('Manage-Post', 'this', '')"> Manage Entries</button>
     </div>
 <!--Start of Timeline Tab-->
     <button class="dropdown-btn"><i class="bi bi-graph-up"></i> Timeline<i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <a href="#"> View Timeline</a>
-        <a href="#"> Create New Timeline</a>
-        <a href="#"> View Past Timeline</a>
+        <button  onclick="openPage('View-Timeline', 'this', '')">View Timeline</button>
+        <button  onclick="openPage('Create-Timeline', 'this', '')">Create New Timeline</button>
+        <button  onclick="openPage('Past-Timeline', 'this', '')">View Past Timeline</button>
     </div>
 <!--Start of Mood Booster Tab-->
     <button class="dropdown-btn"><i class="bi bi-emoji-smile"></i> Mood Booster<i class="bi bi-caret-down-fill"></i></button>
@@ -41,7 +41,7 @@
 <!--Start of Contact Help-->
     <button class="dropdown-btn"><i class="bi bi-telephone"></i> Contact Help<i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <a href="#"> Suicide Prevention</a>
+        <Button onclick="openPage('Suicide-Prevention')"> Suicide Prevention</a>
         <a href="#"> Find a Therapist</a>
     </div>
 
@@ -50,12 +50,20 @@
 </div>
 
 <!--Start of The hidden Tabs-->
-
-<div class="Create-Entry">
-    <button id="Create" class="Create" type="submit"> Create Post</button>
-        
-
-</div>
+    
+<!--Create Post Section-->
+    <div class="tabcontent" id="Create-Post">
+        <button>Create New Post</button>
+            <p></p>
+    </div>
+<!--View Previous Entry-->
+    <div class="tabcontent" id="View-Post">
+      <h3>View Past Entries</h3>
+    </div>
+<!--Manage Entries-->
+    <div class="tabcontent" id="Manage-Post">
+        <h3>Manage Entries</h3>
+    </div>
 
 <!--Start of the Footer-->
 <footer class="Footer">

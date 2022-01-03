@@ -26,7 +26,7 @@ body {
  }
  
 
- .sidenav a, .dropdown-btn, .Logout-btn {
+ .sidenav button, .dropdown-btn, .Logout-btn {
    padding: 15px 8px 15px 16px;
    text-decoration: none;
    font-size: 20px;
@@ -42,7 +42,7 @@ body {
  
  
 
- .sidenav a:hover, .dropdown-btn:hover, .Logout-btn:hover {
+ .sidenav button:hover, .dropdown-btn:hover, .Logout-btn:hover {
    color: #11d3f3;
  }
  
@@ -77,6 +77,6 @@ body {
 /* W3 schools helped to figure margining for mobile device */
 @media screen and (max-height: 450px) {
     .Sidebar {padding-top: 15px;}
-    .Sidebar a {font-size: 18px;}
+    .Sidebar button {font-size: 18px;}
 }
 
