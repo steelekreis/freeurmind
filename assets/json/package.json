@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "chart.js": "^3.6.2",
-    "handlebars": "^4.7.7"
-  }
-}
