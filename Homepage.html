@@ -18,7 +18,7 @@
 <!--Got the basic layout of the nav from a lesson in w3schools-->
 <div class="sidenav">
 <!--Start of Journal Tab-->
-    <button class="dropdown-btn"><i class="bi bi-journal-bookmark-fill"></i> Journal Entries <i class="bi bi-caret-down-fill"></i></button>
+    <button class="dropdown-btn"><i class="bi bi-journal-bookmark-fill"></i> Journal <i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
         <button onclick="openPage('Create-Post', this, '#45E1D8')"> Create Entry</button>
         <button onclick="openPage('View-Post', this, '')"> View Entries</button>
@@ -27,22 +27,22 @@
 <!--Start of Timeline Tab-->
     <button class="dropdown-btn"><i class="bi bi-graph-up"></i> Timeline<i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <button onclick="openPage('View-Timeline', 'this', '')">View Timeline</button>
-        <button onclick="openPage('Create-Timeline', 'this', '')">Create New Timeline</button>
-        <button onclick="openPage('Past-Timeline', 'this', '')">View Past Timeline</button>
+        <button onclick="openPage('View-Timeline', this, '')">View Timeline</button>
+        <button onclick="openPage('Create-Timeline', this, '')">Create New Timeline</button>
+        <button onclick="openPage('Past-Timeline', this, '')">View Past Timeline</button>
     </div>
 <!--Start of Mood Booster Tab-->
     <button class="dropdown-btn"><i class="bi bi-emoji-smile"></i> Mood Booster<i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <button onclick="openPage('Jokes', 'this', '')"> Jokes</button>
-        <button onclick="openPage('Quotes', 'this', '')"> Inspirational Quotes</button>
-        <button onclick="openPage('Pics', 'this', '')"> Pics of Cute Animals</button>
+        <button onclick="openPage('Jokes', this, '')"> Jokes</button>
+        <button onclick="openPage('Quotes', this, '')"> Inspirational Quotes</button>
+        <button onclick="openPage('Pics', this, '')"> Pics of Cute Animals</button>
     </div>
 <!--Start of Contact Help-->
     <button class="dropdown-btn"><i class="bi bi-telephone"></i> Contact Help<i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <button onclick="openPage('Suicide-Prevention', 'this', '')"> Suicide Prevention</button>
-        <button onclick="openPage('Therapist', 'this', '')"> Find a Therapist</a>
+        <button onclick="openPage('Suicide-Prevention', this, '')"> Suicide Prevention</button>
+        <button onclick="openPage('Therapist', this, '')"> Find a Therapist</a>
     </div>
     
     <button class="Logout-btn"><i class="bi bi-box-arrow-left"></i> Logout</button>
@@ -71,6 +71,10 @@
 </div>
 
 
+<!--Suicide prevention-->
+<div class="tabcontent" id="Suicide-Prevention">
+    <a href="tel:8002738255" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">800-273-8255</p></a>
+</div>
 <!--Start of the Footer-->
 <footer class="Footer">
     

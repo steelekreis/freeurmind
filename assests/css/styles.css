@@ -92,5 +92,10 @@ body {
 .Test {
   background-color: white;
   color: black;
-  padding: 30px 30px;
+  padding: 10px 30px;
+}
+
+.call-button {
+  font-size: 30px;
+  color: #adfda2;
 }
