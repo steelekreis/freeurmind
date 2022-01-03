@@ -14,60 +14,66 @@
 <!--Start of Body-->
 <body>
 
-    <img src="./assests/images/Free Ur MInd.png" class="logo">
+    <img src="./assests/images/Free Ur MInd.png" class="logo" id="logo">
 <!--Got the basic layout of the nav from a lesson in w3schools-->
 <div class="sidenav">
 <!--Start of Journal Tab-->
     <button class="dropdown-btn"><i class="bi bi-journal-bookmark-fill"></i> Journal Entries <i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <button class="tablink" onclick="openPage('Create-Post', 'this', '#45E1D8')"> Create Entry</button>
-        <button class="tablink" onclick="openPage('View-Post', 'this', '')"> View Entries</button>
-        <button class="tablink" onclick="openPage('Manage-Post', 'this', '')"> Manage Entries</button>
+        <button onclick="openPage('Create-Post', this, '#45E1D8')"> Create Entry</button>
+        <button onclick="openPage('View-Post', this, '')"> View Entries</button>
+        <button onclick="openPage('Manage-Post', this, '')"> Manage Entries</button>
     </div>
 <!--Start of Timeline Tab-->
     <button class="dropdown-btn"><i class="bi bi-graph-up"></i> Timeline<i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <button  onclick="openPage('View-Timeline', 'this', '')">View Timeline</button>
-        <button  onclick="openPage('Create-Timeline', 'this', '')">Create New Timeline</button>
-        <button  onclick="openPage('Past-Timeline', 'this', '')">View Past Timeline</button>
+        <button onclick="openPage('View-Timeline', 'this', '')">View Timeline</button>
+        <button onclick="openPage('Create-Timeline', 'this', '')">Create New Timeline</button>
+        <button onclick="openPage('Past-Timeline', 'this', '')">View Past Timeline</button>
     </div>
 <!--Start of Mood Booster Tab-->
     <button class="dropdown-btn"><i class="bi bi-emoji-smile"></i> Mood Booster<i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <a href="#"> Jokes</a>
-        <a href="#"> Inspirational Quotes</a>
-        <a href="#"> Pics of Cute Animals</a>
+        <button onclick="openPage('Jokes', 'this', '')"> Jokes</button>
+        <button onclick="openPage('Quotes', 'this', '')"> Inspirational Quotes</button>
+        <button onclick="openPage('Pics', 'this', '')"> Pics of Cute Animals</button>
     </div>
 <!--Start of Contact Help-->
     <button class="dropdown-btn"><i class="bi bi-telephone"></i> Contact Help<i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <Button onclick="openPage('Suicide-Prevention')"> Suicide Prevention</a>
-        <a href="#"> Find a Therapist</a>
+        <button onclick="openPage('Suicide-Prevention', 'this', '')"> Suicide Prevention</button>
+        <button onclick="openPage('Therapist', 'this', '')"> Find a Therapist</a>
     </div>
-
+    
     <button class="Logout-btn"><i class="bi bi-box-arrow-left"></i> Logout</button>
     
 </div>
 
 <!--Start of The hidden Tabs-->
-    
+
 <!--Create Post Section-->
-    <div class="tabcontent" id="Create-Post">
-        <button>Create New Post</button>
-            <p></p>
-    </div>
+<div class="tabcontent" id="Create-Post">
+    <button class="Test">Create New Post</button>
+    <p>Hey kelly this shit isnt working</p>
+</div>
 <!--View Previous Entry-->
-    <div class="tabcontent" id="View-Post">
-      <h3>View Past Entries</h3>
-    </div>
+<div class="tabcontent" id="View-Post">
+    <h3>View Past Entries</h3>
+</div>
 <!--Manage Entries-->
-    <div class="tabcontent" id="Manage-Post">
-        <h3>Manage Entries</h3>
-    </div>
+<div class="tabcontent" id="Manage-Post">
+    <h3>Manage Entries</h3>
+</div>
+
+<!--View Timeline-->
+<div class="tabcontent" id="View-Timeline">
+    <h3>AMAZING GRAPH</h3>
+</div>
+
 
 <!--Start of the Footer-->
 <footer class="Footer">
-
+    
 </footer>
 </body>
 <script src="./assests/js/Homepage.js"></script>

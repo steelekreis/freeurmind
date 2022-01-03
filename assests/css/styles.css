@@ -14,8 +14,9 @@ body {
  width: 50%;
 }
  .sidenav {
+   float: left;
    height: 100%;
-   width: 200px;
+   width: 20%;
    position: fixed;
    z-index: 1;
    top: 0;
@@ -80,3 +81,16 @@ body {
     .Sidebar button {font-size: 18px;}
 }
 
+.tabcontent {
+  margin-left: 40%;
+  color: white;
+  display: none;
+  width: 80%;
+  height: 100%;
+}
+
+.Test {
+  background-color: white;
+  color: black;
+  padding: 30px 30px;
+}
