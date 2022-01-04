@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assests/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Free Ur Mind</title>
@@ -14,7 +16,7 @@
 <!--Start of Body-->
 <body>
 
-    <img src="./assests/images/Free Ur MInd.png" class="logo" id="logo">
+    <img src="./assets/images/Free Ur MInd.png" class="logo" id="logo">
 <!--Got the basic layout of the nav from a lesson in w3schools-->
 <div class="sidenav">
 <!--Start of Journal Tab-->
@@ -65,14 +67,37 @@
     <h3>Manage Entries</h3>
 </div>
 
+<div class="tabcontent" id="Jokes">
+    <section>
+        <h1 class="title">Mood booster</h1>
+        <div class="container">
+          <div class="joke">
+            <p></p>
+          </div>
+          <button>Get a Dad Joke</button>
+        </div>
+        <script src="./assets/js/script.js"></script>
+      </section>
+
+</div>
+
 <!--View Timeline-->
 <div class="tabcontent" id="View-Timeline">
-    <h3>AMAZING GRAPH</h3>
+    <h3>You're mood through the week</h3>
+    
+
+    <canvas id="myChart" width="900" height="700"></canvas>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+ 
 </div>
 
 
 <!--Suicide prevention-->
 <div class="tabcontent" id="Suicide-Prevention">
+    <h3>If you need any help, please call the number below</h3>
     <a href="tel:8002738255" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">800-273-8255</p></a>
 </div>
 <!--Start of the Footer-->
@@ -80,5 +105,5 @@
     
 </footer>
 </body>
-<script src="./assests/js/Homepage.js"></script>
+<script src="./assets/js/Homepage.js"></script>
 </html>
