@@ -1,4 +1,5 @@
-<section>
+{{#if loggedIn}}
+  <section>
   <h2>Create New Post</h2>
 
   <form class="new-post-form">
@@ -12,10 +13,10 @@
     </div>
     <button type="submit" class="btn">Create</button>
   </form>
-</section>
+  </section>
 
-{{#if posts.length}}
-<section>
+  {{#if posts.length}}
+  <section>
   <h2>Your Posts</h2>
   <ol>
     {{#each posts as |post|}}
@@ -25,7 +26,8 @@
     </li>
     {{/each}}
   </ol>
-</section>
-{{/if}}
+  </section>
+  {{/if}}
 
-<script src="/javascript/add-post.js"></script>
+  <script src="/javascript/add-post.js"></script>
+{{/if}}
