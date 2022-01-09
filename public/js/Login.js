@@ -1,28 +1,25 @@
-function myFunction () {
-    var x = document.getElementById("myInput")
-    if (x.type === "password") {
-        x.type = "text";
-    }
-    else {
-        x.type = "password";
-    }
-}
+async function loginFormHandler(event) {
+  event.preventDefault();
 
-function Login(e) {
-    e.preventDefault()
-    var Username = document.getElementById("Username").value
-    var Password = document.getElementById("myInput").value
-    console.log (Username)
-    if (!Password || !Username) {
-        document.getElementById("error").innerText = "Please Enter Username and Password"
-}
-  else if(Password.length < 8 ) {
-    document.getElementById("error").innerText = "Password Must Be 8 Characters"
-  } 
-  else{
-    localStorage.setItem("Username", Username)
-      window.location.assign("./Homepage.html")
+  const email = document.querySelector('#email').value.trim();
+  const password = document.querySelector('#myInput').value.trim();
+
+  if (email && password) {
+    const response = await fetch('/api/users/login', {
+      method: 'post',
+      body: JSON.stringify({
+        email,
+        password
+      }),
+      headers: { 'Content-Type': 'application/json' }
+    });
+
+    if (response.ok) {
+      document.location.replace('/');
+    } else {
+      alert(response.statusText);
+    }
   }
 }
-var button = document.getElementById("loginBtn")
-button.addEventListener("click", Login)
+
+document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
