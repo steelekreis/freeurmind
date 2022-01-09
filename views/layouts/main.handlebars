@@ -5,7 +5,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD:views/layouts/main.handlebars
     <link rel="stylesheet" href="public/css/styles.css">
+=======
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
+>>>>>>> 292393978f402ede8d50461d69d4a270e0c3efa5:Homepage.html
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Free Ur Mind</title>
@@ -21,7 +27,7 @@
 <!--Start of Journal Tab-->
     <button class="dropdown-btn"><i class="bi bi-journal-bookmark-fill"></i> Journal <i class="bi bi-caret-down-fill"></i></button>
     <div class="dropdown-container">
-        <button onclick="openPage('Create-Post', this, '#45E1D8')"> Create Entry</button>
+        <button onclick="openPage('Create-Post', this, '')"> Create Entry</button>
         <button onclick="openPage('View-Post', this, '')"> View Entries</button>
         <button onclick="openPage('Manage-Post', this, '')"> Manage Entries</button>
     </div>
@@ -55,7 +61,7 @@
 <!--Create Post Section-->
 <div class="tabcontent" id="Create-Post">
     <button class="Test">Create New Post</button>
-    <p>Hey kelly this shit isnt working</p>
+    <p></p>
 </div>
 <!--View Previous Entry-->
 <div class="tabcontent" id="View-Post">
@@ -64,6 +70,20 @@
 <!--Manage Entries-->
 <div class="tabcontent" id="Manage-Post">
     <h3>Manage Entries</h3>
+</div>
+
+<div class="tabcontent" id="Jokes">
+    <section>
+        <h1 class="title">Mood booster</h1>
+        <div class="container">
+          <div class="joke">
+            <p></p>
+          </div>
+          <button>Get a Dad Joke</button>
+        </div>
+        <script src="./assets/js/script.js"></script>
+      </section>
+
 </div>
 
 <!--View Timeline-->
@@ -75,7 +95,11 @@
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
 
+<<<<<<< HEAD:views/layouts/main.handlebars
     <script src="./public/js/script.js"></script>
+=======
+    <script src="./assets/js/charting.js"></script>
+>>>>>>> 292393978f402ede8d50461d69d4a270e0c3efa5:Homepage.html
  
 </div>
 
