@@ -122,30 +122,36 @@
 
     <!--Start of login or signup form-->
     <!--Read Course through W3 schools on how to set up login/sign up with attached socials-->
-        <section class="Login">
-            <section class="row">
-            <form>
-                    <h2 style="text-align: center;">Sign Up or Log In</h2>
-                    <div class="col" id="signUp">
-                        <input type="email" id="signupEmail" name="email" placeholder="email" required>
-                        <input id="signupPw" type="password" name="password" placeholder="password" required>
-                        <p id="error"></p>
-                        <input class="Checkbox" type="checkbox" onclick="myFunction()">Show Password
-                        <button id="signupBtn" class="login-input" type="submit" >Sign Up</button>
-                    </div>                
-            </form>
-            <form>
-                <div class="col" id="Login">
-                        <input type="email" id="email" name="email" placeholder="email" required>
-                        <input id="myInput" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="password" required>
-                        <p id="error"></p>
-                        <input class="Checkbox" type="checkbox" onclick="myFunction()">Show Password
-                        <button id="loginBtn" class="login-input" type="submit" >Login</button>
-                        <div class="col">
-                        <a href="#" class="btn">Forgot Password?</a>
-                        </div>
-                    </div>    
-            </form>
+
+  <div>
+    <label for="email-login">email:</label>
+    <input type="text" id="email-login" />
+  </div>
+  <div>
+    <label for="password-login">password:</label>
+    <input type="password" id="password-login" />
+  </div>
+  <div>
+    <button type="submit">login</button>
+  </div>
+</form>
+            <form class="signup-form">
+  <div>
+    <label for="username-signup">username:</label>
+    <input type="text" id="username-signup" />
+  </div>
+  <div>
+    <label for="email-signup">email:</label>
+    <input type="text" id="email-signup" />
+  </div>
+  <div>
+    <label for="password-signup">password:</label>
+    <input type="password" id="password-signup" />
+  </div>
+  <div>
+    <button type="submit">signup</button>
+  </div>
+</form>
             </section>
         </section>
         <section class="Bottom-Login">
