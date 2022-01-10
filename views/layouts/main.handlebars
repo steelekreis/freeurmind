@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+{{#if loggedIn}}
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>Free Ur Mind</title>
+</head>
+<!--Learned Gradients from W3School-->
+
+<!--Start of Body-->
+<body>
+
+    <img src="/images/freeurmind.png" class="logo" id="logo">
+<!--Got the basic layout of the nav from a lesson in w3schools-->
+<div class="sidenav">
+<!--Start of Journal Tab-->
+    <button class="dropdown-btn"><i class="bi bi-journal-bookmark-fill"></i> Journal <i class="bi bi-caret-down-fill"></i></button>
+    <div class="dropdown-container">
+        <button onclick="openPage('Create-Post', this, '')"> Create Entry</button>
+        <button onclick="openPage('View-Post', this, '')"> View Entries</button>
+        <button onclick="openPage('Manage-Post', this, '')"> Manage Entries</button>
+    </div>
+<!--Start of Timeline Tab-->
+    <button class="dropdown-btn"><i class="bi bi-graph-up"></i> Timeline<i class="bi bi-caret-down-fill"></i></button>
+    <div class="dropdown-container">
+        <button onclick="openPage('View-Timeline', this, '')">View Timeline</button>
+        <button onclick="openPage('Create-Timeline', this, '')">Create New Timeline</button>
+        <button onclick="openPage('Past-Timeline', this, '')">View Past Timeline</button>
+    </div>
+<!--Start of Mood Booster Tab-->
+    <button class="dropdown-btn"><i class="bi bi-emoji-smile"></i> Mood Booster<i class="bi bi-caret-down-fill"></i></button>
+    <div class="dropdown-container">
+        <button onclick="openPage('Jokes', this, '')"> Jokes</button>
+        <button onclick="openPage('Quotes', this, '')"> Inspirational Quotes</button>
+        <button onclick="openPage('Pics', this, '')"> Pics of Cute Animals</button>
+    </div>
+<!--Start of Contact Help-->
+    <button class="dropdown-btn"><i class="bi bi-telephone"></i> Contact Help<i class="bi bi-caret-down-fill"></i></button>
+    <div class="dropdown-container">
+        <button onclick="openPage('Suicide-Prevention', this, '')"> Suicide Prevention</button>
+        <button onclick="openPage('Therapist', this, '')"> Find a Therapist</a>
+    </div>
+    
+    <button id = "logout" class="Logout-btn"><i class="bi bi-box-arrow-left"></i> Logout</button>
+    
+</div>
+
+<!--Start of The hidden Tabs-->
+
+<!--Create Post Section-->
+<div class="tabcontent" id="Create-Post">
+    <button class="Test">Create New Post</button>
+    <p></p>
+</div>
+<!--View Previous Entry-->
+<div class="tabcontent" id="View-Post">
+    <h3>View Past Entries</h3>
+</div>
+<!--Manage Entries-->
+<div class="tabcontent" id="Manage-Post">
+    <h3>Manage Entries</h3>
+</div>
+
+<div class="tabcontent" id="Jokes">
+    <section>
+        <h1 class="title">Mood booster</h1>
+        <div class="container">
+          <div class="joke">
+            <p></p>
+          </div>
+          <button>Get a Dad Joke</button>
+        </div>
+        <script src="/js/script.js"></script>
+      </section>
+
+</div>
+
+<!--View Timeline-->
+<div class="tabcontent" id="View-Timeline">
+    <h3>Your mood through the week</h3>
+    
+
+    <canvas id="myChart" width="900" height="700"></canvas>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
+    <script src="/js/charting.js"></script>
+ 
+</div>
+
+
+<!--Suicide prevention-->
+<div class="tabcontent" id="Suicide-Prevention">
+    <h3>If you need any help, please call the number below</h3>
+    <a href="tel:8002738255" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">800-273-8255</p></a>
+</div>
+<!--Start of the Footer-->
+<footer class="Footer">
+    
+</footer>
+</body>
+<script src="/js/Homepage.js"></script>
+{{else}}
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/Login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>Free Ur Mind</title>
+</head>
+<!--Learned Gradients from W3School-->
+
+    <!--Start of Body-->
+    <body>
+
+        <img src="/images/freeurmind.png" class="logo">
+
+    <!--Start of login or signup form-->
+    <!--Read Course through W3 schools on how to set up login/sign up with attached socials-->
+        <section class="Login">
+            <form>
+                <section class="row">
+                    <h2 style="text-align: center;">Login with Social Media or Manually</h2>
+                    <div class="vl">
+                        <span class="vl-innertext">or</span>
+                    </div>
+
+                    <div class="col">
+                        <a href="#" class="fb btn">
+                            <i class="bi bi-facebook"></i> Login with Facebook
+                        </a>
+                        <a href="#" class="Twitter btn">
+                            <i class="bi bi-twitter"></i> Login with Twitter
+                        </a>
+                        <a href="#" class="google btn">
+                            <i class="bi bi-google"></i> Login with Google+
+                        </a>
+                    </div>
+
+                    <div class="col" id="Login">
+                        <div class="hide-md-lg">
+                            <p>Or Sign in Manually:</p>
+                        </div>
+
+                        <input type="email" id="email" name="email" placeholder="eMail" required>
+                        <input id="myInput" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Password" required>
+                        <p id="error"></p>
+                        <input class="Checkbox" type="checkbox" onclick="myFunction()">Show Password
+                        <button id="loginBtn" class="login-input" type="submit" >Login</button>
+                        <button id="signupBtn" class="login-input" type="submit" >Sign Up</button>
+                    </div>
+
+                </section>
+            </form>
+        </section>
+        <section class="Bottom-Login">
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="btn">Forgot Password?</a>
+                </div>
+            </div>
+
+        </section>
+    <script src="/js/login.js"></script>
+    </body>
+    {{/if}}
+</html>
