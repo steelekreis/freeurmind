@@ -1,0 +1,279 @@
+[33mcommit f523e0f813ba4682dbe43613d885fd5e340e9e3a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31mheroku/main[m[33m)[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 21:25:42 2022 -0700
+
+    adding possible missing utilities
+
+[33mcommit 993b7dd4069e84a1c3028ed1fbe65e68d6e5c4a4[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 21:18:07 2022 -0700
+
+    still trying to figure out why it's crashing
+
+[33mcommit ed20ff76449b32d43a760f036386a8663a271c63[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 21:10:35 2022 -0700
+
+    still trying to figure out server issue
+
+[33mcommit 4aba20af8ae3da20dd78789640efef56701540c3[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 20:57:34 2022 -0700
+
+    still trying to get routes to work
+
+[33mcommit 0c2e6f8c3630f5f7cbd9db497ccc9728b6de32f7[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 20:53:37 2022 -0700
+
+    correcting user routes
+
+[33mcommit 492e7a9a224603ef707e2c9f73f747d3039ef8a2[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 20:38:05 2022 -0700
+
+    removed a missed reference
+
+[33mcommit 88012c408d3da7359879d191b412f185c9ffd6d8[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 20:36:32 2022 -0700
+
+    removed username reference
+
+[33mcommit 78154fa0901f102fb05b452e3efe1a2887fad862[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 20:34:22 2022 -0700
+
+    working on login js
+
+[33mcommit f21cce9c33dd366f905bd1ed129e1a298826078d[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 20:29:53 2022 -0700
+
+    fixed login form
+
+[33mcommit 0c9368814be27137f5dc474f791e9abfbe7cbf47[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 20:24:27 2022 -0700
+
+    added signup form logic
+
+[33mcommit 5a9bf519f61fc090c9a52ffa7b75a8235592476a[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 20:04:51 2022 -0700
+
+    testing login function
+
+[33mcommit 43c73745c9d0b521e5500f6af39ee9a6f85f3f61[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 19:55:47 2022 -0700
+
+    adjusting routes
+
+[33mcommit bd135380acede560cd8b830fa7da3501122a4046[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 19:13:17 2022 -0700
+
+    separated forms
+
+[33mcommit db254103a176e77965fe66f7b1aed0fab2d238a1[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 19:05:13 2022 -0700
+
+    changed js reference to form, moved forgot password
+
+[33mcommit a597d9577c9c77e0b705715b764859176890609a[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:59:44 2022 -0700
+
+    changin javascript references
+
+[33mcommit 0979cfe4df14b97248e5980693118f9af081ec10[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:56:32 2022 -0700
+
+    renaming js folder
+
+[33mcommit b4326a145c9007a8b704b547460dcaa4b708a11a[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:48:43 2022 -0700
+
+    new ids, more reshuffling
+
+[33mcommit 366bc1709c8cb6b1c2e89c84b97b74ce271aafd9[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:43:06 2022 -0700
+
+    trying to get link to login.js to work
+
+[33mcommit 742d64251d43e1fd342fba326ebdeac938db9e25[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:34:17 2022 -0700
+
+    forgot to save handlebar changes
+
+[33mcommit af01c967838f4d3948908fb435ead45de1524672[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:32:52 2022 -0700
+
+    renamed placeholder handlebar
+
+[33mcommit aba72212190700791c56ee0eebfe45c9d9f8548a[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:31:43 2022 -0700
+
+    reorg of login page
+
+[33mcommit 52357806b8387be10210b68c80cdfe85f9c48563[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:15:14 2022 -0700
+
+    reverted to original handlebar structure
+
+[33mcommit 3c88bb358bbd89745011cc2aab32a2d4a5367a6f[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:13:48 2022 -0700
+
+    moved main handlebar
+
+[33mcommit 6476b8acbd802a71496754da798e7698a9ad55eb[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 18:12:34 2022 -0700
+
+    removed extra handlebar
+
+[33mcommit 571e4ac1696c4dc012e07e9be6b1ec71ade18b4b[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 03:11:06 2022 -0700
+
+    starting to work on signup/login
+
+[33mcommit ec2f0755bab4a66af133f194695184fcb814796c[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:59:32 2022 -0700
+
+    moved signup button
+
+[33mcommit 14798e6a1c2f1e1b4d44115df9ba1fe06d6220f4[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:56:36 2022 -0700
+
+    renamed image to freeurmind.png
+
+[33mcommit 6f9d5b81693b9165f53d23ee94392eff5483a477[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:54:50 2022 -0700
+
+    still trying to fix handlebars
+
+[33mcommit e32b97d48294daa659d35aa8b1c0dd1b25890dd6[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:50:15 2022 -0700
+
+    moved main handlebar back into layout
+
+[33mcommit 58c333f5e20c050155023f6b203560da61611bcb[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:46:28 2022 -0700
+
+    renaming homeroutes
+
+[33mcommit 105b7400d4b9213344d5f0c20fce4c97d36bdaf1[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:44:39 2022 -0700
+
+    working on fixing routes
+
+[33mcommit e9952374fc5b3b9bcceb5c4f4683098058dcd74e[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:35:07 2022 -0700
+
+    fixed user reference
+
+[33mcommit 07774e408b4c2be702b5954158fa10a4f24439ea[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:32:57 2022 -0700
+
+    ditto
+
+[33mcommit cd9683b6fb9df295e3f48f1d3c393df55acbdd10[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:30:15 2022 -0700
+
+    got rid of helper reference
+
+[33mcommit fc27f3393d8012cfa652d70d3cfc631e35925982[m[33m ([m[1;31mheroku/develop[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:20:39 2022 -0700
+
+    refined models and controllers
+
+[33mcommit 423ccbbd9af404b896a26d12a85fcb213c26f617[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 02:01:50 2022 -0700
+
+    creating starting controllers/models
+
+[33mcommit c6e9348b97d9e67b2c6108f3dd6ddd86445f104f[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sun Jan 9 00:42:58 2022 -0700
+
+    starting backend from scratch
+
+[33mcommit 4939faacddf44d4eabee9c43552cd5f686b8f3b2[m
+Merge: 3ad7d4a 2923939
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Sat Jan 8 18:23:16 2022 -0700
+
+    merged from remote
+
+[33mcommit 3ad7d4a9721e409f88ad74c0392a3479f6ba96be[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Wed Jan 5 21:18:00 2022 -0700
+
+    deleted node modules...again
+
+[33mcommit c7ffc72f06b27924404b63eb43666f1acd5ab82a[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Wed Jan 5 21:07:27 2022 -0700
+
+    fixing server
+
+[33mcommit 01661196abd47997a9e3584332be0c641232546a[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Wed Jan 5 20:38:55 2022 -0700
+
+    and more
+
+[33mcommit 6f54f73e0359715a517966a7eebad15ce2a4842a[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Wed Jan 5 20:37:30 2022 -0700
+
+    more adjustments
+
+[33mcommit a708a09361fb3046964cd5ce79a2db1d8890d642[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Wed Jan 5 20:28:03 2022 -0700
+
+    adding postinstall script
+
+[33mcommit da0ad22e50a92e98f18ad252c7910e746996cec6[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Wed Jan 5 20:24:57 2022 -0700
+
+    removing possibly wonky handlebar logic
+
+[33mcommit 6b20cbd99b9f5b7e0e276867df34af73985b4e4d[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Wed Jan 5 20:19:58 2022 -0700
+
+    removed node modules...again
+
+[33mcommit 95c45611a0f2cd2211b2268f9f1322ebaf92c6bd[m
+Author: steelekreis <steele.kreis@gmail.com>
+Date:   Wed Jan 5 20:13:48 2022 -0700
+
+    adding node version to package.json
+
+[33mcommit 2c7257c32d799aeb2e82773ca35eff3211eebf4a[m
+Author: steelekreis <steele.kreis@gma
