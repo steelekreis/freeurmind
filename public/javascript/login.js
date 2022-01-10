@@ -15,7 +15,7 @@ async function loginFormHandler(event) {
     });
 
     if (response.ok) {
-      document.location.replace('/dashboard/');
+      document.location.replace('/');
     } else {
       alert(response.statusText);
     }
@@ -33,7 +33,6 @@ async function signupFormHandler(event) {
     const response = await fetch('/api/users', {
       method: 'post',
       body: JSON.stringify({
-        username,
         email,
         password
       }),
@@ -41,7 +40,7 @@ async function signupFormHandler(event) {
     });
 
     if (response.ok) {
-      document.location.replace('/dashboard/');
+      document.location.replace('/');
     } else {
       alert(response.statusText);
     }
