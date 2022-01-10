@@ -123,23 +123,19 @@
     <!--Start of login or signup form-->
     <!--Read Course through W3 schools on how to set up login/sign up with attached socials-->
         <section class="Login">
+            <section class="row">
             <form>
-                <section class="row">
                     <h2 style="text-align: center;">Sign Up or Log In</h2>
                     <div class="col" id="signUp">
-                        <div class="hide-md-lg">
-                            <p>Or Sign in Manually:</p>
-                        </div>
-
                         <input type="email" id="signupEmail" name="email" placeholder="email" required>
                         <input id="signupPw" type="password" name="password" placeholder="password" required>
                         <p id="error"></p>
                         <input class="Checkbox" type="checkbox" onclick="myFunction()">Show Password
                         <button id="signupBtn" class="login-input" type="submit" >Sign Up</button>
-                    </div>
-                    
-                    <div>
-                        <div class="col" id="Login">
+                    </div>                
+            </form>
+            <form>
+                <div class="col" id="Login">
                         <input type="email" id="email" name="email" placeholder="email" required>
                         <input id="myInput" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="password" required>
                         <p id="error"></p>
@@ -148,14 +144,9 @@
                         <div class="col">
                         <a href="#" class="btn">Forgot Password?</a>
                         </div>
-                    </div>
-                        <div class="col">
-                        <a href="#" class="btn">Forgot Password?</a>
-                        </div>  
-                    </div>
-                                  
-                </section>
+                    </div>    
             </form>
+            </section>
         </section>
         <section class="Bottom-Login">
             <div class="row">
