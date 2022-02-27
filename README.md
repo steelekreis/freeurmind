@@ -14,9 +14,9 @@
   An app to help your mental health!
   Keep track of and log your moods day to day with journal entries and graphs.
   Learn your behaviors and what changes you can make to become a better you!
-  ## Visuals!
-  [Free Ur Mind](https://user-images.githubusercontent.com/89118701/155900754-aa6639db-b63c-4908-86cc-5ca34cd58939.gif)
-  
+  ## Screenshots!
+  [landing page](https://user-images.githubusercontent.com/89118701/155900502-d0fff82c-d9ba-4185-adad-4d299a7a7953.png)
+  [Homepage](https://user-images.githubusercontent.com/89118701/155900495-d8473b20-ceb1-4fb2-91b8-07c039bda15d.png)
   ## Languages Used
   HTML,CSS,Bootstrap,JavaScript,React,Node,SQL
   ## Project Usage
